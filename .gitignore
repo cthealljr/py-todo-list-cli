@@ -1,0 +1,11 @@
+# Ignore __pycache__/ directories
+__pycache__/
+
+# Ignore build/ directories
+build/
+
+# Ignore egg-info directories
+*.egg-info/
+
+# Ignore Python Virtual Environment directory
+venv/

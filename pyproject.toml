@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todo"
+version = "0.0.1"
+dependencies = [
+  "tzdata",
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Charles Theall Jr", email = "charles.theall.jr@gmail.com"},
+]
+
+[project.scripts]
+todo-list = "todo:main_cli"
